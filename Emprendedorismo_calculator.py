@@ -1,4 +1,6 @@
 import calendar
+import os
+os.system("clear")
 ano = 2024
 dia = 7
 print(calendar.month(ano,dia))

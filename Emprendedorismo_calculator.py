@@ -2,7 +2,7 @@ import calendar
 ano = 2024
 dia = 7
 print(calendar.month(ano,dia))
-print("(+)Exemplo: nao começou a semana na DOMINGO, digite 00 para pular, e avancar para proxima pergunta. ")
+print("(+)Exemplo: nao começou a semana no DOMINGO, digite 00 para pular, e avancar para proxima pergunta. ")
 print("   Esse programa faz calculos com numero Inteiros/Flutuantes, Exemplo: 50+50+ 44.15+50.12+ [?].[?]+[?].\n\n")
 while True:
     

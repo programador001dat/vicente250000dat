@@ -2,8 +2,8 @@ import calendar
 import os
 os.system("clear")
 ano = 2024
-dia = 7
-print("\n",calendar.month(ano,dia))
+mes = 7
+print("\n",calendar.month(ano,mes))
 print("(!)Exemplo: nao começou a semana na DOMINGO, digite Zero.0 para pular, e avancar para proxima linha. ")
 print("  °Esse programa faz calculos com numero Inteiros/Flutuantes, Exemplo: 50+50+ 44.15+50.12+ [?].[?]+[?].")
 print("  °Pagamento Ifood são depositados toda Quarta-feira. Ctrl+Z Sair do Script.\n\n")

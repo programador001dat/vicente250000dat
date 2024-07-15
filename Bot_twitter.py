@@ -1,6 +1,8 @@
 import time
 import pyautogui
-
+#Esse script funciona importando essa bibliotecas, ele cria uma conta no Twiiter
+#A única parte que o script da um stop é no Bypass "não sou um robô kkk"
+#Aí você tem um tempo para o script voltar a executar. 
 pyautogui.PAUSE = (1.5)
 pyautogui.press("win")
 time.sleep(5)

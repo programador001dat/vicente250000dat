@@ -1,5 +1,7 @@
 import calendar
 import os
+#Esse script faz o cálculo de 1mês trabalhado
+#Quantos você tira em 1dia de Bico, ou Espreita? 
 os.system("clear")
 ano = 2024
 mes = 7

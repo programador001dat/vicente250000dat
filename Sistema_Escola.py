@@ -1,3 +1,4 @@
+#Script passa ou não passa de ano. 
 print("\n__>SISTEMA ESCOLA\n")
 
 escola = ("E.E.PLINÍO RODRIGUES DE MORAES")

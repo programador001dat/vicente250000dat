@@ -1,6 +1,6 @@
 from random import choice
 import string
-
+#Criar senhas para usuários.
 print("\n[X]Gerador de SENHA\n")
 
 while True:

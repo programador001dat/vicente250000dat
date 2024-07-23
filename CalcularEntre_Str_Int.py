@@ -1,4 +1,3 @@
-#Script passa ou não passa de ano. 
 print("\n__>SISTEMA ESCOLA\n")
 
 escola = ("E.E.PLINÍO RODRIGUES DE MORAES")
@@ -17,10 +16,6 @@ artes = ("Artes")
 geografia = ("Geografia")
 passo = 5
 reprovo = 5
-
-#PARA MUDAR A NOTA, BASTA; ALTERAR: ONE_ = 'nota_aqui' TWO_ = 'nota_aqui' THREE__ = 'nota_aqui' FOUR_ = 'nota_aqui' exemplos.
-#ESSAS NOTAS SAO ARMAZENADAS EM VARIAVEIS.
-#POR ULTIMO CALCULE A NOTA NA VARIAVEL FINAL: materia:_final(nota+nota+nota+nota)/4
 
 one_matematica = "6"
 two_matematica = "5"

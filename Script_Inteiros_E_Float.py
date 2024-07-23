@@ -1,6 +1,5 @@
 import calendar
 import os
-
 os.system("clear")
 ano = 2024
 mes = 7
@@ -9,9 +8,7 @@ print("(!)Exemplo: nao começou a semana na DOMINGO, digite Zero.0 para pular, e
 print("  °Esse programa faz calculos com numero Inteiros/Flutuantes, Exemplo: 50+50+ 44.15+50.12+ [?].[?]+[?].")
 print("  °Ctrl+Z Sair do Script.\n\n")
 while True:
-    
     try:
-    
         print(" [1]Primeira semana...")
         w = float(input(" Domingo.          [COMECOU]$?: "))
         a = float(input(" Segunda-feira.      dia[01]$?: "))
@@ -20,8 +17,7 @@ while True:
         d = float(input(" Quinta-feira.       dia[04]$?: "))
         e = float(input(" Sexta-feira.        dia[05]$?: "))
         f = float(input(" Sabado.             dia[06]$?: "))
-        soma_primeira_semana = (a+b+c+d+e+f+w)
-        
+        soma_primeira_semana = (a+b+c+d+e+f+w)  
         print("\n [2]Segunda semana...")
         aa = float(input(" Domingo.            dia[07]$?: "))
         ab = float(input(" Segunda-feira.      dia[08]$?: "))
@@ -31,7 +27,6 @@ while True:
         af = float(input(" Sexta-feira.        dia[12]$?: "))
         aw = float(input(" Sabado.             dia[13]$?: "))
         soma_segunda_semana = (aa+ab+ac+ad+ae+af+aw)
-        
         print("\n [3]Terceira semana...")
         ba = float(input(" Domingo.            dia[14]$?: "))
         bb = float(input(" Segunda-feira.      dia[15]$?: "))
@@ -41,7 +36,6 @@ while True:
         bf = float(input(" Sexta-feira.        dia[19]$?: "))
         bw = float(input(" Sabado-Feira.       dia[20]$?: "))
         soma_terceira_semana = (ba+bb+bc+bd+be+bf+bw)
-        
         print("\n [4]Quarta semana...")
         ca = float(input(" Domingo.            dia[21]$?: "))
         cb = float(input(" Segunda-feira.      dia[22]$?: "))
@@ -51,7 +45,6 @@ while True:
         cf = float(input(" Sexta-feira.        dia[26]$?: "))
         cw = float(input(" Sabado.             dia[27]$?: "))
         soma_quarta_semana = (ca+cb+cc+cd+ce+cf+cw)
-        
         print("\n [5]Ultima semana...")
         da = float(input(" Domingo.            dia[28]$?: "))
         db = float(input(" Segunda-feira.      dia[29]$?: "))
@@ -65,7 +58,5 @@ while True:
         final = float(soma_primeira_semana+soma_segunda_semana+soma_terceira_semana+soma_quarta_semana+soma_semana_final)
         print("$",final,"REAL final do Mês.")
         print("_________________________________\n\n")
-
-
     except:
         print("\n ->Se voce teclar Enter sem nenhum resultado. Traceback: ValueError error in String.\n\n")

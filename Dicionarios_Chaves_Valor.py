@@ -1,3 +1,4 @@
+#Lista de SQL python, contador de chave valor.
 import sys
 import os
 def Biblioteca():
